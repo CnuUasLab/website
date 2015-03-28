@@ -1103,7 +1103,7 @@ a:focus {
   outline-offset: -2px;
 }
 figure {
-  margin: 0;
+  margin: 0;F
 }
 img {
   vertical-align: middle;
@@ -1140,7 +1140,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 5px solid #eee;
 }
 .sr-only {
   position: absolute;
