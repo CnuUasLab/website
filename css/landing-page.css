@@ -8,7 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
-    background: url(../img/cnuaerial.jpg) no-repeat;
+    background: url(../img/uasbackground-blurred.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -47,22 +47,42 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    color: white;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
     font-size: 5em;
 }
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 1px solid #000000;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.intro-message > h5 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 @media(max-width:767px) {
@@ -99,16 +119,34 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: rgba(0,0,0,0.1);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .content-section-b {
     padding: 50px 0;
     background-color: rgba(200,200,200,0.1);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .section-heading {
     margin-bottom: 30px;
     color: #FFFFFF;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .section-heading-spacer {
@@ -126,13 +164,23 @@ h6 {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     font-size: 3em;
 }
 
 .banner h4 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .banner ul {
@@ -179,36 +227,38 @@ p.copyright {
 }
 
 .profile-pic {
-    opacity:0.8;
-    padding-top: 50px;
+    width: 200px;
+    height: 200px;
 }
 
-img.profile-pic:hover {
-    opacity:1.0;
+.bottom-prof-pic {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 
 .page-heading {
     margin-bottom: 30px;
     text-align: center;
     color: #F0F0F0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;}
 
 a:hover {
     cursor:pointer;
 }
 
 .sponsor-pic {
-    opacity:0.8;
-}
 
-img.sponsor-pic:hover {
-    opacity:1.0;
 }
 
 .gallery-pic {
     opacity:0.8;
-    padding-top:50px;
+    margin-top:50px;
 }
 
 img.gallery-pic:hover {
